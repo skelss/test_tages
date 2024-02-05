@@ -1,7 +1,7 @@
 import fs from 'fs'
 import readline from 'readline'
 
-const maxSize = 1024 * 1024 * 512 //~
+const maxSize = 1024 * 1024 * 500 //~
 
 async function writeLinesToFile(lines, index){
     return new Promise((resolve, reject) => {
